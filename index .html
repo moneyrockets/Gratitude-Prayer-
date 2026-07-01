@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Morning Gratitude</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital@1&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: #faf6ec;
+  }
+
+  body {
+    min-height: 100vh;
+    width: 100%;
+    background: #faf6ec;
+    color: #3d2b1f;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8vh 6vw;
+  }
+
+  .symbol {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 18px;
+    background: linear-gradient(160deg, #a259c9, #7d3fa8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+
+  h1 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    letter-spacing: 0.12em;
+    color: #b8873a;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  .prayer {
+    font-size: clamp(1.5rem, 5vw, 2.4rem);
+    line-height: 1.7;
+    max-width: 900px;
+    margin-bottom: 3rem;
+    color: #3d2b1f;
+  }
+
+  .amen {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    color: #b8873a;
+    margin-bottom: 4rem;
+  }
+
+  .signature {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #b8873a;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    line-height: 1.6;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html, body {
+      background: #1c1712;
+    }
+    body {
+      color: #f0e6d2;
+    }
+    .prayer {
+      color: #f0e6d2;
+    }
+    h1, .amen, .signature {
+      color: #e0a94f;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="symbol">✡</div>
+  <h1>A Prayer of Gratitude</h1>
+  <p class="prayer">
+    Thank You, Hashem, for another day of work.<br><br>
+    Another day we have the opportunity to sustain our family through Your hands.
+  </p>
+  <div class="amen">Amen</div>
+  <p class="signature">
+    Said with a grateful heart, each morning<br>
+    — Carol Cordero
+  </p>
+</body>
+</html>
